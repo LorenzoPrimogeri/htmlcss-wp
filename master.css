@@ -62,9 +62,11 @@ ul li{
 .mainSection p{
     color: grey;
 }
-.left{
-    background-image: url("img/img-1.jpg");
-    background-color: rgba(150, 143, 143, 0.6);
+.grey{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(150, 143, 143, 0.2);
 }
 .side{
     background-size: cover;
@@ -72,21 +74,25 @@ ul li{
     width: 25%;
     height: 80%; 
 } 
+.left{
+    border-right: 4px solid white;
+    background-image: url("img/img-1.jpg");
+}
 .middle{
     background-image: url("img/banner-2.jpg");
     background-size: cover;
-    background-color: rgba(150, 143, 143, 1);
-    float: left;
-    width: 50%;
-    height: 80%;
-}
-.mid{
     float: left;
     width: 50%;
     height: 80%;
 }
 .right{
+    border-left: 4px solid white;
     background-image: url("img/img-3.jpg");
+}
+.mid{
+    float: left;
+    width: 50%;
+    height: 80%;
 }
 .row{
     padding-left: 20px;
