@@ -97,6 +97,11 @@ ul li{
 .row{
     padding-left: 20px;
 } 
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
 footer{
     margin-top:20px;
     text-align: center; 
