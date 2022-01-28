@@ -31,6 +31,7 @@ ul li{
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+    border-radius: 5px;
     width: 100%;
     height: 57%;
 }
@@ -56,8 +57,8 @@ ul li{
 }
 .mainSection{
     width: 49vW;
-    height: 30vh;
-   margin-bottom: 5px;
+    height: 25vh;
+   margin-bottom: 25px;
 }
 .mainSection p{
     color: grey;
@@ -72,7 +73,7 @@ ul li{
     background-size: cover;
     float: left;
     width: 25%;
-    height: 80%; 
+    height: 100%; 
 } 
 .left{
     border-right: 4px solid white;
@@ -83,11 +84,14 @@ ul li{
     background-size: cover;
     float: left;
     width: 50%;
-    height: 80%;
+    height: 100%;
 }
 .right{
     border-left: 4px solid white;
     background-image: url("img/img-3.jpg");
+}
+div h4{
+    margin-bottom: 5px;
 }
 .mid{
     float: left;
@@ -95,7 +99,7 @@ ul li{
     height: 80%;
 }
 .row{
-    padding-left: 20px;
+    padding-left: 15px;
 } 
 .clearfix{
     content: "";
